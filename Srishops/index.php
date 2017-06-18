@@ -41,7 +41,7 @@
       <h1>welcome to my city guide!<span></span></h1>
       <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
         galley of type and scrambled it to make a type specimen book. </span>
-        <div class="btns"><a href="01.html" class="green">Get started</a><a href="#" class="white_border">Purchase</a></div>
+        <div class="btns"><a href="01.php" class="green">Get started</a><a href="#" class="white_border">Purchase</a></div>
     </div>
     <div class="animation">
         <img src="img/start/x01.png.pagespeed.ic.lnC4TcxJbg.png" class="option animated fadeInDownBig one_element" alt="#">

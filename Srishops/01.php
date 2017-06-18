@@ -40,18 +40,18 @@
 <nav class="pushy pushy-left">
 <div class="profile">
 <div class="avatar"><img src="img/avatar/xava_16.jpg.pagespeed.ic.sIIYvqIphI.jpg" alt="#"><span>5</span></div>
-<h3><a href="03.html">Ananew Matvey</a></h3>
+<h3><a href="03.php">Ananew Matvey</a></h3>
 <a href="#" class="log_btn">Log in</a>
 </div>
 <ul class="side_menu">
-<li><a href="index.html"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
+<li><a href="index.php"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
 <li><a href="01.html" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
-<li><a href="05.html"><i class="fa fa-list"></i>Place list</a></li>
-<li><a href="04.html"><i class="fa fa-th"></i>Place grid</a></li>
-<li><a href="02.html"><i class="fa fa-building-o"></i>Place</a></li>
-<li><a href="03.html"><i class="fa fa-user"></i>User profile</a></li>
-<li><a href="06.html"><i class="fa fa-book"></i>Blog</a></li>
-<li><a href="07.html"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
+<li><a href="05.php"><i class="fa fa-list"></i>Place list</a></li>
+<li><a href="04.php"><i class="fa fa-th"></i>Place grid</a></li>
+<li><a href="02.php"><i class="fa fa-building-o"></i>Place</a></li>
+<li><a href="03.php"><i class="fa fa-user"></i>User profile</a></li>
+<li><a href="06.php"><i class="fa fa-book"></i>Blog</a></li>
+<li><a href="07.php"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
 </ul>
 </nav>
 <!--add-->
@@ -97,7 +97,7 @@
 <!--Header-->
 <div class="container-fluid header">
 <div class="row">
-<div class="col-md-12"><a href="index.html" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
+<div class="col-md-12"><a href="index.php" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
 <input type="text" class="search" placeholder="search"><a href="#" class="green_btn_header" id="ad">Add place</a></div>
 </div>
 </div>

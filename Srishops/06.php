@@ -40,18 +40,18 @@
 <nav class="pushy pushy-left">
 <div class="profile">
 <div class="avatar"><img src="img/avatar/xava_16.jpg.pagespeed.ic.sIIYvqIphI.jpg" alt="#"><span>5</span></div>
-<h3><a href="03.html">Ananew Matvey</a></h3>
+<h3><a href="03.php">Ananew Matvey</a></h3>
 <a href="#" class="log_btn">Log in</a>
 </div>
 <ul class="side_menu">
-<li><a href="index.html"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
-<li><a href="01.html" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
-<li><a href="05.html"><i class="fa fa-list"></i>Place list</a></li>
-<li><a href="04.html"><i class="fa fa-th"></i>Place grid</a></li>
-<li><a href="02.html"><i class="fa fa-building-o"></i>Place</a></li>
-<li><a href="03.html"><i class="fa fa-user"></i>User profile</a></li>
+<li><a href="index.php"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
+<li><a href="01.php" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
+<li><a href="05.php"><i class="fa fa-list"></i>Place list</a></li>
+<li><a href="04.php"><i class="fa fa-th"></i>Place grid</a></li>
+<li><a href="02.php"><i class="fa fa-building-o"></i>Place</a></li>
+<li><a href="03.php"><i class="fa fa-user"></i>User profile</a></li>
 <li><a href="06.html"><i class="fa fa-book"></i>Blog</a></li>
-<li><a href="07.html"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
+<li><a href="07.php"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
 </ul>
 </nav>
 <!--add-->
@@ -100,7 +100,7 @@
 
 <!--head-->
 <div class="head">
-<a href="index.html" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
+<a href="index.php" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
 <a href="#" class="green_btn_header" id="ad"><i class="fa fa-plus"></i></a><input type="text" class="search" placeholder="search">
 </div>
 <div class="place_li_cont">
@@ -119,15 +119,15 @@
 <!--Blog post style one-->
 <div class="post p_style_one">
 <div class="post_info">
-<h2><a href="08.html">Drones map algae growing underwater on Antarctic ice</a><span></span></h2>
+<h2><a href="09.php">Drones map algae growing underwater on Antarctic ice</a><span></span></h2>
 <div class="p_text">
 You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using 
 </div>
 <div class="p_footer">
 <ul>
-  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
-  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
-  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  <li><a href="09.php"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="09.php"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="09.php"><i class="fa fa-calendar"></i>23.01.2014</a></li>
 </ul>
 </div>
 </div>
@@ -137,16 +137,16 @@ You can use all Bootstrap plugins purely through the markup API without writing 
 <div class="post p_style_two">
 <div class="post_info">
 <div class="arrow"></div>
-<h2><a href="08.html">Chimps and gorillas desperately need an Ebola vaccine too</a><span></span></h2>
+<h2><a href="09.php">Chimps and gorillas desperately need an Ebola vaccine too</a><span></span></h2>
 <div class="p_text">
 <p>There is a side to the Ebola crisis that, perhaps understandably, has received little media attention: the threat it poses to our nearest cousins, the great apes of Africa. At this moment in time Ebola is the single greatest threat to the survival of gorillas and chimpanzees.</p>
 <p>The virus is even more deadly for other great apes as it is for humans, with mortality rates approximately 95%</p>
 </div>
 <div class="p_footer">
 <ul>
-  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
-  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
-  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  <li><a href="09.php"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="09.php"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="09.php"><i class="fa fa-calendar"></i>23.01.2014</a></li>
 </ul>
 </div>
 </div>
@@ -155,15 +155,15 @@ You can use all Bootstrap plugins purely through the markup API without writing 
 <!--Blog post style vdk-->
 <div class="post p_style_one vdk">
 <div class="post_info">
-<h2><a href="08.html">French theme park will use 50 drones for a nighttime spectacle</a><span></span></h2>
+<h2><a href="09.php">French theme park will use 50 drones for a nighttime spectacle</a><span></span></h2>
 <div class="p_text">
 You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using 
 </div>
 <div class="p_footer">
 <ul>
-  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
-  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
-  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  <li><a href="09.php"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="09.php"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="09.php"><i class="fa fa-calendar"></i>23.01.2014</a></li>
 </ul>
 </div>
 </div>
@@ -172,15 +172,15 @@ You can use all Bootstrap plugins purely through the markup API without writing 
 <!--Blog post style three-->
 <div class="post p_style_three">
 <div class="post_info">
-<h2><a href="08.html">Chimps and gorillas desperately need an Ebola vaccine too</a><span></span></h2>
+<h2><a href="09.php">Chimps and gorillas desperately need an Ebola vaccine too</a><span></span></h2>
 <div class="p_text">
 You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using 
 </div>
 <div class="p_footer">
 <ul>
-  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
-  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
-  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  <li><a href="09.php"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="09.php"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="09.php"><i class="fa fa-calendar"></i>23.01.2014</a></li>
 </ul>
 </div>
 </div>

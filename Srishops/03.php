@@ -44,14 +44,14 @@
 <a href="#" class="log_btn">Log in</a>
 </div>
 <ul class="side_menu">
-<li><a href="index.html"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
-<li><a href="01.html" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
-<li><a href="05.html"><i class="fa fa-list"></i>Place list</a></li>
-<li><a href="04.html"><i class="fa fa-th"></i>Place grid</a></li>
-<li><a href="02.html"><i class="fa fa-building-o"></i>Place</a></li>
+<li><a href="index.php"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
+<li><a href="01.php" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
+<li><a href="05.php"><i class="fa fa-list"></i>Place list</a></li>
+<li><a href="04.php"><i class="fa fa-th"></i>Place grid</a></li>
+<li><a href="02.php"><i class="fa fa-building-o"></i>Place</a></li>
 <li><a href="03.html"><i class="fa fa-user"></i>User profile</a></li>
-<li><a href="06.html"><i class="fa fa-book"></i>Blog</a></li>
-<li><a href="07.html"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
+<li><a href="06.php"><i class="fa fa-book"></i>Blog</a></li>
+<li><a href="07.php"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
 </ul>
 </nav>
 <!--add-->
@@ -112,62 +112,62 @@
 <div class="user_friends">
 <h4>Friends:</h4>
 <div class="users_group">
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_11.jpg.pagespeed.ic.5zWb0nKMru.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_10.jpg.pagespeed.ic.ZSu3yWcUqQ.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_9.jpg.pagespeed.ic.rW2xvxrhgA.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_8.jpg.pagespeed.ic.9-ghxGdjVS.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_7.jpg.pagespeed.ic.9-9fHOtbuD.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_6.jpg.pagespeed.ic.fyVw2_P9Gz.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_5.jpg.pagespeed.ic.-85w-jweYo.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_4.jpg.pagespeed.ic.Izy26HP4Xs.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/ava_3.jpg.pagespeed.ce.ldYVRVirTH.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_2.jpg.pagespeed.ic.W46E0c5TWX.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/ava_1.jpg.pagespeed.ce.aq9vdjbFWD.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
@@ -182,7 +182,7 @@
 <!--head-->
 <div class="head">
 
-<a href="index.html" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
+<a href="index.php" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
 <a href="#" class="green_btn_header" id="ad"><i class="fa fa-plus"></i></a><input type="text" class="search" placeholder="search">
 </div>
 <!--User info for mobile visible-->
@@ -203,62 +203,62 @@
 <div class="user_friends">
 <h4>Friends:</h4>
 <div class="users_group">
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_11.jpg.pagespeed.ic.5zWb0nKMru.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_10.jpg.pagespeed.ic.ZSu3yWcUqQ.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_9.jpg.pagespeed.ic.rW2xvxrhgA.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_8.jpg.pagespeed.ic.9-ghxGdjVS.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_7.jpg.pagespeed.ic.9-9fHOtbuD.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_6.jpg.pagespeed.ic.fyVw2_P9Gz.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_5.jpg.pagespeed.ic.-85w-jweYo.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_4.jpg.pagespeed.ic.Izy26HP4Xs.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/ava_3.jpg.pagespeed.ce.ldYVRVirTH.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_2.jpg.pagespeed.ic.W46E0c5TWX.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/ava_1.jpg.pagespeed.ce.aq9vdjbFWD.jpg" alt=""></a>
-<a href="02.html" class="user_avatars">
+<a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
@@ -278,13 +278,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_11.jpg.pagespeed.ic.5zWb0nKMru.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Oki doki</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Oki doki</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
 </div>
 </div>
@@ -292,13 +292,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/ava_3.jpg.pagespeed.ce.ldYVRVirTH.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Pizza ricko</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Pizza ricko</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson</div>
 </div>
 </div>
@@ -306,13 +306,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_4.jpg.pagespeed.ic.Izy26HP4Xs.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Kafema</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Kafema</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
 </div>
 </div>
@@ -320,13 +320,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_5.jpg.pagespeed.ic.-85w-jweYo.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Placebo night club</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Placebo night club</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage</div>
 </div>
 </div>
@@ -334,13 +334,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_6.jpg.pagespeed.ic.fyVw2_P9Gz.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Cucko</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Cucko</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson</div>
 </div>
 </div>
@@ -348,13 +348,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_7.jpg.pagespeed.ic.9-9fHOtbuD.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Old capitan pub</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Old capitan pub</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! </div>
 </div>
 </div>
@@ -362,13 +362,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_8.jpg.pagespeed.ic.9-ghxGdjVS.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Matart group ltd</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Matart group ltd</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage </div>
 </div>
 </div>
@@ -376,13 +376,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_9.jpg.pagespeed.ic.rW2xvxrhgA.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Cinema okean</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Cinema okean</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
 </div>
 </div>
@@ -390,13 +390,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_11.jpg.pagespeed.ic.5zWb0nKMru.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Dampling republic</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Dampling republic</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly </div>
 </div>
 </div>
@@ -404,13 +404,13 @@
 
 <!--review-->
 <div class="rev">
-<div class="user"><a href="02.html" class="user_avatars">
+<div class="user"><a href="02.php" class="user_avatars">
 <div class="user_go">
 <i class="fa fa-link"></i>
 </div>
 <img src="img/avatar/xava_10.jpg.pagespeed.ic.ZSu3yWcUqQ.jpg" alt=""></a></div>
 <div class="texts">
-<div class="head_rev"><a href="02.html">Royal burger</a> <span>12.09.2008</span></div>
+<div class="head_rev"><a href="02.php">Royal burger</a> <span>12.09.2008</span></div>
 <div class="text_rev">Get a history lesson on possibly the world's most famous beverage -- and sample Coca-Cola products from around the globe! Kids will love it...</div>
 </div>
 </div>

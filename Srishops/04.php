@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from matveyan.ru/Themes/mycity/04.Simple_Light/html/05.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jun 2017 18:54:32 GMT -->
+<!-- Mirrored from matveyan.ru/Themes/mycity/04.Simple_Light/html/04.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jun 2017 18:54:33 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My City – Place list</title>
+<title>My City – Place grid</title>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/A.bootstrap.css.pagespeed.cf.Y2YjFlXRYQ.css">
@@ -40,18 +40,18 @@
 <nav class="pushy pushy-left">
 <div class="profile">
 <div class="avatar"><img src="img/avatar/xava_16.jpg.pagespeed.ic.sIIYvqIphI.jpg" alt="#"><span>5</span></div>
-<h3><a href="03.html">Ananew Matvey</a></h3>
+<h3><a href="03.php">Ananew Matvey</a></h3>
 <a href="#" class="log_btn">Log in</a>
 </div>
 <ul class="side_menu">
-<li><a href="index.html"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
-<li><a href="01.html" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
-<li><a href="05.html"><i class="fa fa-list"></i>Place list</a></li>
+<li><a href="index.php"><i class="fa fa-bookmark-o"></i>Promo page</a></li>
+<li><a href="01.php" class="animsition-link"><i class="fa fa-map-marker"></i>Map</a></li>
+<li><a href="05.php"><i class="fa fa-list"></i>Place list</a></li>
 <li><a href="04.html"><i class="fa fa-th"></i>Place grid</a></li>
-<li><a href="02.html"><i class="fa fa-building-o"></i>Place</a></li>
-<li><a href="03.html"><i class="fa fa-user"></i>User profile</a></li>
-<li><a href="06.html"><i class="fa fa-book"></i>Blog</a></li>
-<li><a href="07.html"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
+<li><a href="02.php"><i class="fa fa-building-o"></i>Place</a></li>
+<li><a href="03.php"><i class="fa fa-user"></i>User profile</a></li>
+<li><a href="06.php"><i class="fa fa-book"></i>Blog</a></li>
+<li><a href="07.php"><i class="fa fa-file-powerpoint-o"></i>Open post</a></li>
 </ul>
 </nav>
 <!--add-->
@@ -95,16 +95,16 @@
 <div class="row">
 <div class="site-overlay"></div>
 
-<!--content-->
-<div class="col-md-12 basic">
 
 <!--head-->
 <div class="head">
-<a href="index.html" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
+<a href="index.php" class="logo"><img src="img/xlogo.png.pagespeed.ic.F2IVdzW6aC.png" alt="Mycity"/></a>
 <a href="#" class="green_btn_header" id="ad"><i class="fa fa-plus"></i></a><input type="text" class="search" placeholder="search">
 </div>
-<div class="place_li_cont">
-<!--headlines-->
+<!--content-->
+<div class="col-md-12 basic">
+
+<div class="place_gr_cont">
 <h1>Place grid</h1>
 <p class="lead">You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</p>
 <!--Blog category-->
@@ -120,71 +120,71 @@
 <li><a href="#" class="showplace"><i class="fa fa-eye"></i>Showplace</a></li>
 <li><a href="#" class="park"><i class="fa fa-leaf"></i>Park</a></li>
 </ul>
-
-<!--place style list-->
-<div class="pg style_list">
-<!--features-->
+<!--place style one-->
+<div class="pg style_one" onclick="location.href='03.php';">
+<div class="p_cont">
+<h2>Central Park<span></span></h2>
+<span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
+</div>
 <img src="img/xpl3.jpg.pagespeed.ic.dsQKM4nRxM.jpg" alt="">
-<div class="con">
-<h2><a href="02.html">Top of The Rock Observation Deck</a><span></span></h2>
+<div class="dar_bg_frid"></div>
+</div>
+<!--place style one-->
+<div class="pg style_one" onclick="location.href='03.php';">
+<div class="p_cont">
+<h2>Central Park<span></span></h2>
 <span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
-<a href="02.html" class="comm"><i class="fa fa-comments"></i>234 Comments</a> 
 </div>
-</div>
-<!--place style list-->
-<div class="pg style_list">
-<!--features-->
 <img src="img/xpl2.jpg.pagespeed.ic.uGydb8jui3.jpg" alt="">
-<div class="con">
-<h2><a href="02.html">Pizza Rico</a><span></span></h2>
+<div class="dar_bg_frid"></div>
+</div>
+<!--place style one-->
+<div class="pg style_one" onclick="location.href='03.php';">
+<div class="p_cont">
+<h2>Central Park<span></span></h2>
 <span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
-<a href="02.html" class="comm"><i class="fa fa-comments"></i>234 Comments</a>
 </div>
-</div>
-<!--place style list-->
-<div class="pg style_list">
-<!--features-->
 <img src="img/xpl1.jpg.pagespeed.ic.laq94_MKzt.jpg" alt="">
-<div class="con">
-<h2><a href="02.html">Madison Square Park</a><span></span></h2>
+<div class="dar_bg_frid"></div>
+</div>
+<!--place style two-->
+<div class="pg style_two" onclick="location.href='03.php';">
+<h2>The Metropolitan Museum of Art<span></span></h2>
 <span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
-<a href="02.html" class="comm"><i class="fa fa-comments"></i>234 Comments</a>
 </div>
+<!--place style two-->
+<div class="pg style_two" onclick="location.href='03.php';">
+<h2>Washington Square Park<span></span></h2>
+<span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
 </div>
-<!--place style list-->
-<div class="pg style_list">
-<!--features-->
+<!--place style three-->
+<div class="pg style_three" onclick="location.href='03.php';">
+<h2>Levain Bakery<span></span></h2>
+<span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
+</div>
+<!--place style one-->
+<div class="pg style_one" onclick="location.href='03.php';">
+<div class="p_cont">
+<h2>Central Park<span></span></h2>
+<span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
+</div>
 <img src="img/xpl3.jpg.pagespeed.ic.dsQKM4nRxM.jpg" alt="">
-<div class="con">
-<h2><a href="02.html">Strand Book Store</a><span></span></h2>
+<div class="dar_bg_frid"></div>
+</div>
+<!--place style one-->
+<div class="pg style_one" onclick="location.href='03.php';">
+<div class="p_cont">
+<h2>Central Park<span></span></h2>
 <span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
-<a href="02.html" class="comm"><i class="fa fa-comments"></i>234 Comments</a>
 </div>
-</div>
-<!--place style list-->
-<div class="pg style_list">
-<!--features-->
 <img src="img/xpl2.jpg.pagespeed.ic.uGydb8jui3.jpg" alt="">
-<div class="con">
-<h2><a href="02.html">Union Square Park</a><span></span></h2>
-<span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
-<a href="02.html" class="comm"><i class="fa fa-comments"></i>234 Comments</a>
-</div>
-</div>
-<!--place style list-->
-<div class="pg style_list">
-<!--features-->
-<img src="img/xpl1.jpg.pagespeed.ic.laq94_MKzt.jpg" alt="">
-<div class="con">
-<h2><a href="02.html">Alphabet City Beer Co.</a><span></span></h2>
-<span>You can use all Bootstrap plugins purely through the markup API without writing a single line of JavaScript. This is Bootstrap's first-class API and should be your first consideration when using a plugin.</span>
-<a href="02.html" class="comm"><i class="fa fa-comments"></i>234 Comments</a>
-</div>
+<div class="dar_bg_frid"></div>
 </div>
 
 </div>
 <!--morebtn-->
 <a href="#" class="more_btn">Load more</a>
+
 </div>
 </div>
 </div>
@@ -210,5 +210,5 @@
 <script>eval(mod_pagespeed_YK71blHGSZ);</script>
 </body>
 
-<!-- Mirrored from matveyan.ru/Themes/mycity/04.Simple_Light/html/05.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jun 2017 18:54:33 GMT -->
+<!-- Mirrored from matveyan.ru/Themes/mycity/04.Simple_Light/html/04.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jun 2017 18:54:33 GMT -->
 </html>
