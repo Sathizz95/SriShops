@@ -50,7 +50,9 @@
     bottom: 58px !important;
 }
 
-
+.navBar{
+	
+}
 
 body {
     background: url(../img/start/bg.jpg);
@@ -232,6 +234,7 @@ a:hover {
     color: #0C5DA3;
     text-decoration: none;
     background: #FFFFFF;
+
 }
 
 /*////////////////////////////////////////////////////////////*/
