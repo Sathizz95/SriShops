@@ -17,7 +17,7 @@
     </head>
     <body>
    <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="  background-color: white">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -51,28 +51,20 @@
         </div><!--/.row -->
       </div><!--/.container -->
     </div><!--/.container-fluid -->
-         <div id="map" class="map">
-            <!--jsffffffffffffffffffffffffffffffff-->
-           <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJDpnNZnys_wfcXf8Gf8ovDEtC55DvDhc&callback=initMap">
-    </script>
-            <!--jsgfffffffffffffffffffffffffffffffff-->
         
-        </div>
-        
+        <!-- background animation-->
+        <div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/backanimation.js"></script>
+        <!--background animation-->
         
     </body>
 </html>
