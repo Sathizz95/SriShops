@@ -39,6 +39,9 @@ Some Style Overrides on Bootstrap
 .navbar navbar-inverse navbar-fixed-top{
     background-color:aliceblue !important
 }
+.nav-pills>li>a {
+    border-radius: 12px;
+}
 li a {
     text-decoration: none;
     position: relative;
