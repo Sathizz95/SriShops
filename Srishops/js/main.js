@@ -34,3 +34,53 @@ $(window).scroll(function() {
 
 
 });
+
+/*angular navigation*/
+
+	// create the module and name it scotchApp
+	var scotchApp = angular.module('scotchApp', ['ngRoute']);
+
+	// configure our routes
+	scotchApp.config(function($routeProvider) {
+		$routeProvider
+
+			// route for the home page
+			.when('/', {
+				templateUrl : 'index.html',
+				controller  : 'mainController'
+			})
+
+			// route for the newspaper page
+			.when('/newspapers', {
+				templateUrl : 'newspapers.html',
+				controller  : 'newsController'
+			})
+       // route for the article page
+			.when('/article', {
+				templateUrl : 'article.html',
+				controller  : 'articleController'
+			})
+			// route for the contact page
+			.when('/contact', {
+				templateUrl : 'contact.html',
+				controller  : 'contactController'
+			});
+	});
+
+	// create the controller and inject Angular's $scope
+	scotchApp.controller('mainController', function($scope) {
+		// create a message to display in our view
+		$scope.message = 'mainPage';
+	});
+
+	scotchApp.controller('newsController', function($scope) {
+		$scope.message = 'News Page';
+	});
+
+	scotchApp.controller('contactController', function($scope) {
+		$scope.message = 'Contact';
+	});
+
+scotchApp.controller('articleController', function($scope) {
+		$scope.message = 'Article';
+	});

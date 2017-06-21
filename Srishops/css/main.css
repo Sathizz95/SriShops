@@ -13,9 +13,64 @@ Some Style Overrides on Bootstrap
     border: 1px solid #333;
     border-color: rgba(255, 255, 255, 0.7);
 }
+nav{
+    display:inline-block;
+    background-color: transparent;
+}
 
+nav a{
+    display:inline-block;
+    padding: 18px 12px;
+    color:#00bffd !important;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:16px;
+    text-decoration:none !important;
+    line-height:1;
+    text-transform: uppercase;
+    background-color:transparent;
+
+    -webkit-transition:background-color 0.25s;
+    -moz-transition:background-color 0.25s;
+    transition:background-color 0.25s;
+}
+
+nav a:first-child{
+    border-radius:2px 0 0 2px;
+}
+
+nav a:last-child{
+    border-radius:0 2px 2px 0;
+}
+
+nav.home .home,
+nav.newspapers .newspapers,
+nav.article .article,
+nav.contact .contact{
+    background-color:brown;
+}
+
+p{
+    font-s
+    color:#7d9098;
+}
+
+p b{
+    color:#ffffff;
+    display:inline-block;
+    padding:5px 10px;
+    background-color:#DC64C6;
+    border-radius:2px;ize:22px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:18px;
+}
+nav.home .home, nav.team.team, nav.about .about, nav.contact .contact{
+    background-color: brown;
+}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: transparent;
+    padding-left: 50%;
 }
 @media (max-width: 767px) {
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -73,6 +128,9 @@ li a.active:after {
     margin-left: 20%;
     box-shadow: 0px 0px 10px white;
 }
+#demo-canvas{
+    z-index: 0;
+}
 
 /* *********************************
 Toolbar Logo
@@ -87,6 +145,9 @@ Toolbar Logo
     font-size: 2.5em;
     padding-bottom: 2px;
 }
+.large-header{
+    
+}
 
 /* *********************************
 Big Logo
@@ -95,7 +156,7 @@ Big Logo
     background: transparent;
 }
 .big-logo-row .big-logo-container {
-    padding-top: 16px;
+
 }
 .big-logo-row h1 {
     font-size: 4em;
@@ -140,4 +201,8 @@ Big Logo
 }
 body {
     background-image: url("../img/mainback.jpg");
+    font-size: 17px;
+}
+.contentdiv{
+    background-color: aliceblue;
 }
