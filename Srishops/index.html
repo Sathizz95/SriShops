@@ -1,90 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- define angular app -->
+<html ng-app="myApp">
+
     <head>
+        <!-- CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" />
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>SriShops</title>
-        <!--=imports -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
- <!--       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script> --> 
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-
-        <link rel="shortcut icon" href="http://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2015-01-13/e152bfbc6404f32574fe06e54aa4783a.ico">
-
-        <!--custom css-->
-        <link rel="stylesheet" href="css/main.css"> 
-        <script src="js/main.js"></script>
+        <!-- JS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
-    <body ng-app="scotchApp" ng-controller="mainController">
-        <!-- Fixed navbar -->
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="  background-color: white">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="small-logo-container">
-                        <a class="small-logo" href="#">SriShops</a>
-                    </div>
-                </div>
-                <div class="navbar-collapse collapse">
 
+    <!-- define angular controller -->
+    <body ng-controller="mainController">
+        <div id="wrap">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container"><div class="navbar-header">
 
-                    <nav class="{{active}}" ng-click="$event.preventDefault()">
+                <a class="navbar-brand" href="#">Srishops</a></div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#home">Home</a></li> 
+                        <li><a href="#news">Read Newspapers</a></li> 
+                        <li><a href="#article">Article Coner</a></li>
+                        <li><a href="#about">About Us</a></li>
 
-                        <!-- When a link in the menu is clicked, we set the active variable -->
+                    </ul></div><!--//--></div></div>
 
-                        <a href="/" class="home" ng-click="active='home'">Home</a>
-
-                        <a href="/newspapers" class="newspapers" ng-click="active='newspapers'">Read Newspapers</a>
-                        <a href="/article" class="article" ng-click="active='article'">Article Coner</a>
-                        <a href="/contact" class="contact" ng-click="active='contact'">Contact Us</a>
-                    </nav>
-                </div><!--/.nav-collapse -->
-            </div>
-        </div>
-
-        <div class="container-fluid big-logo-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 big-logo-container">
-                        <h1 class="big-logo"><img src="http://www.srishops.com/images/header/logo.png" alt="Sri Shops Logo"></h1>
-                    </div><!--/.col-xs-12 -->
-                </div><!--/.row -->
-            </div><!--/.container -->
-        </div><!--/.container-fluid -->
-
-        <!-- background animation-->
+            
+             <!-- background animation-->
         <div class="container demo-1">
             <div class="content">
                 <div id="large-header" class="large-header">
-                    <canvas id="demo-canvas"></canvas>
+                    <canvas id="demo-canvas">
+                    </canvas>
                 </div>
             </div>
         </div><!-- /container -->
         <!--background animation-->
-
-        <div class="contentdiv">
-            <!-- this is where content will be injected -->
+          
+            
+             <!-- this is where content will be injected -->
+            <div class="contentDiv">
             <div ng-view></div>
-
+            </div>
         </div>
-
-
-
-        <script src="js/TweenLite.min.js"></script>
+         <script src="js/TweenLite.min.js"></script>
         <script src="js/EasePack.min.js"></script>
         <script src="js/rAF.js"></script>
         <script src="js/backanimation.js"></script>
     </body>
+
 </html>
