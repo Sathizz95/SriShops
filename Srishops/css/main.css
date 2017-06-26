@@ -1,208 +1,37 @@
-/* *********************************
-Variables
-********************************** */
-/* *********************************
-Some Style Overrides on Bootstrap
-********************************** */
-.navbar-inverse {
-    background: rgba(62, 195, 246, 0);
-    border-bottom: none;
-}
-
-.navbar-inverse .navbar-toggle {
-    border: 1px solid #333;
-    border-color: rgba(255, 255, 255, 0.7);
-}
-nav{
-    display:inline-block;
-    background-color: transparent;
-}
-
-nav a{
-    display:inline-block;
-    padding: 18px 12px;
-    color:#00bffd !important;
-    font-family: cursive;
-    font-weight:bold;
-    font-size:16px;
-    text-decoration:none !important;
-    line-height:1;
-    text-transform: uppercase;
-    background-color:transparent;
-
-    -webkit-transition:background-color 0.25s;
-    -moz-transition:background-color 0.25s;
-    transition:background-color 0.25s;
-}
-
-nav a:first-child{
-    border-radius:2px 0 0 2px;
-}
-
-nav a:last-child{
-    border-radius:0 2px 2px 0;
-}
-
-nav.home .home,
-nav.newspapers .newspapers,
-nav.article .article,
-nav.contact .contact{
-    background-color:brown;
-}
-
-p{
-    font-s
-    color:#7d9098;
-}
-
-p b{
-    color:#ffffff;
-    display:inline-block;
-    padding:5px 10px;
-    background-color:#DC64C6;
-    border-radius:2px;ize:22px;
-    font-weight:bold;
-    text-transform:uppercase;
-    font-size:18px;
-}
-nav.home .home, nav.team.team, nav.about .about, nav.contact .contact{
-    background-color: brown;
-}
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: transparent;
-    padding-left: 50%;
-}
-@media (max-width: 767px) {
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        background: rgba(255, 255, 255, 0.75);
-    }
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: darksalmon;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #22F;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-
-    color: #fff;
-    background-color: brown;
-}
-.navbar navbar-inverse navbar-fixed-top{
-    background-color:aliceblue !important
-}
-.nav-pills>li>a {
-    border-radius: 12px;
-}
-li a {
-    text-decoration: none;
-    position: relative;
-    padding: 6px 0;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-    color: lightblue;
-}
-li a:after {
-    content: '';
-    width: 0%;
-    margin-left: 50%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    border-radius: 40%;
-    position: absolute;
-    transition: all 0.5s;
-}
-li a:hover:after {
-    background-color: white;
-    width: 60%;
-    margin-left: 20%;
-    box-shadow: 0px 0px 10px white;
-}
-li a.active:after {
-    background-color: white;
-    width: 60%;
-    margin-left: 20%;
-    box-shadow: 0px 0px 10px white;
-}
-#demo-canvas{
-    z-index: 0;
-}
-
-/* *********************************
-Toolbar Logo
-********************************** */
-.small-logo-container {
-    height: 50px;
-    position: absolute;
-}
-
-.small-logo {
-    color: inherit;
-    font-size: 2.5em;
-    padding-bottom: 2px;
-}
-.large-header{
-    
-}
-
-/* *********************************
-Big Logo
-********************************** */
-.big-logo-row {
-    background: transparent;
-}
-.big-logo-row .big-logo-container {
-
-}
-.big-logo-row h1 {
-    font-size: 4em;
-    margin: 0;
-    padding: 0 0 15px 0;
-}
-@media (min-width: 400px) {
-    .big-logo-row h1 {
-        font-size: 4.5em;
-    }
-}
-@media (min-width: 440px) {
-    .big-logo-row h1 {
-        font-size: 5.5em;
-    }
-}
-@media (min-width: 500px) {
-    .big-logo-row h1 {
-        font-size: 6.5em;
-    }
-}
-@media (min-width: 630px) {
-    .big-logo-row h1 {
-        font-size: 7.5em;
-    }
-}
-@media (min-width: 768px) {
-    .big-logo-row h1 {
-        font-size: 9em;
-        padding-bottom: 30px;
-    }
-}
-@media (min-width: 1200px) {
-    .big-logo-row h1 {
-        font-size: 12em;
-    }
-}
-.map {
-    width: 100%;
-    height: 700px;
-    background-color: blue;
-}
 body {
-    background-image: url("../img/mainback.jpg");
-    font-size: 17px;
+    font-family: cursive;
+    padding-top: 50px;
 }
-.contentdiv{
-    background-color: aliceblue;
+
+.menu-bar {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    height: 14px;
+    margin-left: -10px;
+}
+.menu {
+    display: none; 
+    width: 100%;
+    padding: 0px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: #333; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+/*overrdes*/
+.fa-bars{
+    font-size: 2em;
 }

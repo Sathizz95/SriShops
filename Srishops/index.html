@@ -1,58 +1,41 @@
 <!DOCTYPE html>
-
-<!-- define angular app -->
-<html ng-app="myApp">
+<html>
 
     <head>
         <!-- CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css" />
-
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="http://fonts.googleapis.com/css?family=Arimo:400" rel="stylesheet">
+        <link href="font/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">;
         <!-- JS -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.min.js"></script>
-        <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
     </head>
 
-    <!-- define angular controller -->
-    <body ng-controller="mainController">
-        <div id="wrap">
-            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container"><div class="navbar-header">
+    <body>
+        <div>
+            <a class="menu-bar" data-toggle="collapse" href="#menu">
+              <i class="fa fa-bars fa-2" aria-hidden="true"></i>
+            </a>
+            <div class="collapse menu" id="menu">
+                <ul class="list-inline">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>   
+            </div>
 
-                <a class="navbar-brand" href="#">Srishops</a></div>
-                <div class="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#home">Home</a></li> 
-                        <li><a href="#news">Read Newspapers</a></li> 
-                        <li><a href="#article">Article Coner</a></li>
-                        <li><a href="#about">About Us</a></li>
-
-                    </ul></div><!--//--></div></div>
-
-            
-             <!-- background animation-->
-        <div class="container demo-1">
-            <div class="content">
-                <div id="large-header" class="large-header">
-                    <canvas id="demo-canvas">
-                    </canvas>
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Menu</h2>
                 </div>
-            </div>
-        </div><!-- /container -->
-        <!--background animation-->
-          
-            
-             <!-- this is where content will be injected -->
-            <div class="contentDiv">
-            <div ng-view></div>
-            </div>
+            </div> 
+
         </div>
-         <script src="js/TweenLite.min.js"></script>
-        <script src="js/EasePack.min.js"></script>
-        <script src="js/rAF.js"></script>
-        <script src="js/backanimation.js"></script>
     </body>
 
 </html>
