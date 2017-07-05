@@ -48,18 +48,6 @@
 <!-- MAP SECTION -->
 <section class="clearfix p0">
 	<div id="map-canvas"></div>
-
-
-    <script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(7.9612, 80.7273),
-    zoom:7,
-};
-var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
-}
-</script>
-
 </section>
 
 <!-- CATEGORY SEARCH SECTION -->
@@ -105,7 +93,18 @@ var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
 	</form>
 </section>
 
-
+	
+	
+	 <script>
+		function myMap() {
+			
+		var mapProp= {
+			center:new google.maps.LatLng(7.9612, 80.7273),
+			zoom:7,
+		};
+		var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
+		}
+	</script>
   <script src="plugins/jquery/jquery.min.js"></script>
   <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
   <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -118,14 +117,10 @@ var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
   <script src="plugins/isotope/isotope.min.js"></script>
   <script src="plugins/fancybox/jquery.fancybox.pack.js"></script>
   <script src="plugins/isotope/isotope-triger.min.js"></script>
-<<<<<<< HEAD
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>
   <script src="plugins/map/js/rich-marker.js"></script>
   <script src="plugins/map/js/infobox_packed.js"></script>
   <script src="js/map.js"></script>
-=======
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>s
->>>>>>> 02b60d98a75e6b9eb6cf37ecd21b26abb7527244
   <script src="js/custom.js"></script>
 
 </body>
