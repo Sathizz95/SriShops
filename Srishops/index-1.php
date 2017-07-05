@@ -48,8 +48,8 @@
 <!-- MAP SECTION -->
 <section class="clearfix p0">
 	<div id="map-canvas"></div>
-<<<<<<< HEAD
-=======
+
+
     <script>
 function myMap() {
 var mapProp= {
@@ -59,7 +59,7 @@ var mapProp= {
 var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
 }
 </script>
->>>>>>> 02b60d98a75e6b9eb6cf37ecd21b26abb7527244
+
 </section>
 
 <!-- CATEGORY SEARCH SECTION -->
