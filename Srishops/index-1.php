@@ -37,7 +37,7 @@
 
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <!--[endif]-->
 
 </head>
 
@@ -48,6 +48,18 @@
 <!-- MAP SECTION -->
 <section class="clearfix p0">
 	<div id="map-canvas"></div>
+<<<<<<< HEAD
+=======
+    <script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(7.9612, 80.7273),
+    zoom:7,
+};
+var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
+}
+</script>
+>>>>>>> 02b60d98a75e6b9eb6cf37ecd21b26abb7527244
 </section>
 
 <!-- CATEGORY SEARCH SECTION -->
@@ -106,14 +118,18 @@
   <script src="plugins/isotope/isotope.min.js"></script>
   <script src="plugins/fancybox/jquery.fancybox.pack.js"></script>
   <script src="plugins/isotope/isotope-triger.min.js"></script>
+<<<<<<< HEAD
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>
   <script src="plugins/map/js/rich-marker.js"></script>
   <script src="plugins/map/js/infobox_packed.js"></script>
   <script src="js/map.js"></script>
+=======
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>s
+>>>>>>> 02b60d98a75e6b9eb6cf37ecd21b26abb7527244
   <script src="js/custom.js"></script>
 
 </body>
 
 
-<!-- Mirrored from themes.iamabdus.com/listty/1.0/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 Jun 2017 07:44:22 GMT -->
+
 </html>
