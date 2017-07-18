@@ -22,7 +22,7 @@
   <link href="plugins/fancybox/jquery.fancybox.pack.css" rel="stylesheet">
   <link href="plugins/isotope/isotope.min.css" rel="stylesheet">
   <link href="plugins/map/css/map.css" rel="stylesheet">
-
+   
   <!-- GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -74,9 +74,9 @@
 						</div>
 						<div class="form-group">
 							<div class="input-group">
-								<div class="input-group-addon">Near</div>
-								<input type="text" class="form-control" id="nearLocation" placeholder="Location">
-								<div class="input-group-addon addon-right"><i class="icon-listy icon-target" aria-hidden="true"></i></div>
+								<div class="nearadon input-group-addon">Near</div>
+							      <input type="text" name="typeahead" id="near" class="form-control typeahead tt-query" autocomplete="off" spellcheck="false" placeholder="District">
+ 	<div class="nearadon input-group-addon addon-right"><i class="icon-listy icon-target" aria-hidden="true"></i></div>
 							</div>
 						</div>
 						<button type="submit" class="btn btn-primary">Search <i class="fa fa-search" aria-hidden="true"></i></button>
@@ -108,8 +108,17 @@
   <script src="plugins/map/js/infobox_packed.js"></script>
   <script src="js/single-map.js"></script>
   <script src="js/map.js"></script>
+   <script src="js/typeahead.min.js"></script>
   <script src="js/custom.js"></script>
-
+  <script>
+    $(document).ready(function(){
+    $('input.typeahead').typeahead({
+        name: 'typeahead',
+        remote:'php/search.php?key=%QUERY',
+        limit : 10
+    });
+});
+    </script>
 </body>
 
 
