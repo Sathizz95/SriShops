@@ -39,7 +39,7 @@
                             <a href="services.php" >Services </a>
 
                         </li>
-                        <li class=""><a href="blog.html">Article Corner </a></li>
+                        <li class=""><a href="blog.php">Article Corner </a></li>
                         <li class=""><a href="blog.html">Read Newspapers </a></li>
                         <li class=""><a href="blog.html">Contact Us </a></li>
 
