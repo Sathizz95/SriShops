@@ -40,7 +40,7 @@
 
                         </li>
                         <li class=""><a href="blog.php">Article Corner </a></li>
-                        <li class=""><a href="blog.html">Read Newspapers </a></li>
+                        <li class=""><a href="newspapers.php">Read Newspapers </a></li>
                         <li class=""><a href="blog.html">Contact Us </a></li>
 
                     </ul>
