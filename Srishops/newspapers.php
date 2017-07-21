@@ -39,6 +39,9 @@
   <!--[endif]-->
 
 <style>
+body{
+	background:white;
+}
 .flip_container{
                     margin: 29px;
     border: 1px solid #ccc;
@@ -85,7 +88,7 @@
                   }
 </style>
 </head>
-<body background="img/background/news.jpg">
+<body>
   <?php include("includes/nav.php");?>
   
 <div class="grid">
@@ -96,7 +99,7 @@
 
     <img src="img/cars/car-2.jpg" width="250" height="250"></img>  </div>
         <div class="flip_back">
-   <a href="https://www.w3schools.com/html/default.asp">Desc here about lankadeepa</a>
+   <a target="_blank" href="https://www.w3schools.com/html/default.asp">Desc here about lankadeepa</a>
         </div>
      </div>
 </div>

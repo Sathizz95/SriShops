@@ -41,7 +41,7 @@
 
 <style type="text/css">
 body{
-	background:#ccc;
+	background:white;
 }
 #magazine{
 	width:1152px;
@@ -51,11 +51,20 @@ body{
 	background-color:#ccc;
 	background-size:100% 100%;
 }
+.mainbook{
+	    padding-top: 2%;
+}
+.navInfo{
+	    padding-left: 28%;
+    padding-top: 2%;
+}
 </style>
 </head>
 <body>
   <?php include("includes/nav.php");?>
   <!--zoomz can be added for zooming-->
+  <div class="navInfo"><h3>Use Left and Right arrowkeys to navigate through the book</h3	> </div>
+  <div class="mainbook">
 	<div id="magazine">
 	<div style="background-image:url(articlepages/01.jpg);"></div>
 	<div style="background-image:url(articlepages/02.jpg);"></div>
@@ -64,6 +73,8 @@ body{
 	<div  style="background-image:url(articlepages/05.jpg);"></div>
 	<div style="background-image:url(articlepages/06.jpg);"></div>
 </div>
+</div>
+
 
 
 
