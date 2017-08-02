@@ -91,15 +91,14 @@ body{
 <body>
   <?php include("includes/nav.php");?>
   
-<div class="grid">
-
+<div>
 <div class="flip_container">
     <div class="flip">
 <div class="flip_front">
 
-    <img src="img/cars/car-2.jpg" width="250" height="250"></img>  </div>
+    <img src="img/newspapers/divaina.jpg" width="250" height="250"></img>  </div>
         <div class="flip_back">
-   <a target="_blank" href="https://www.w3schools.com/html/default.asp">Desc here about lankadeepa</a>
+   <a target="_blank" href="http://www.divaina.com/">Divaina  - The Leading Sinhala-language newspaper with the nationwide circulation. The newspaper published by Upali Newspapers Ltd. දිවයින - ජාතික මට්ටමේ සංසරණය සහිත ප්රමුඛතම සිංහල භාෂා පුවත්පතයි. උපාලි පුවත්පත් සමාගම විසින් පළ කරන ලද පුවත්පත</a>
         </div>
      </div>
 </div>
@@ -107,9 +106,9 @@ body{
 <div class="flip_container">
     <div class="flip">
 <div class="flip_front">
-    <img src="img/cars/car-1.jpg" width="250" height="250"></img>         </div>
+    <img src="img/newspapers/lankadeepa.jpg" width="250" height="250"></img>         </div>
         <div class="flip_back">
-   <p>Desc here about lankadeepa</p>
+		<a target="_blank" href="http://www.lankadeepa.lk">Lankadeepa - One of the most popular Sinhala newspapers in Srilanka. Published by Wijeya Newspapers Ltd. ලංකාදීප - ශ්රී ලංකාවේ ජනප්රිය සිංහල පුවත්පත් එකකි. විජය පුවත්පත් සමාගම විසින් ප්රකාශයට පත් කරනු ලැබේ.</a>
         </div>
      </div>
 </div>
@@ -117,20 +116,22 @@ body{
 <div class="flip_container">
     <div class="flip">
 <div class="flip_front">
-    <img src="img/cars/car-3.jpg" width="250" height="250"></img>         </div>
+    <img src="img/newspapers/dinamina.jpg" width="250" height="250"></img>         </div>
         <div class="flip_back">
-   <p>Desc here about lankadeepa</p>
-        </div>
+  	<a target="_blank" href="http://www.dinamina.lk/">One of the most widely circulated Sinhalese-language newspapers published in Sri Lanka. Published by Lakehouse newspapers. 
+ශ්රී ලංකාවේ ප්රකාශයට පත් කරන ලද සිංහල ජනප්රිය පුවත්පත් වලින් එකකි. ලේක්හවුස් පුවත්පත් විසින් ප්රකාශයට පත් කරන ලදී</a>
+          </div>
      </div>
 </div>
 
 <div class="flip_container">
     <div class="flip">
 <div class="flip_front">
-    <img src="img/cars/car-4.jpg" width="250" height="250"></img>         </div>
+    <img src="img/newspapers/lakbima.jpg" width="250" height="250"></img>         </div>
         <div class="flip_back">
-   <p>Desc here about lankadeepa</p>
-        </div>
+  	<a target="_blank" href="http://www.lakbima.lk/">Sri Lankan weekly newspaper owned by the Sumathi News Papers Limited. 	
+සුමති නිව්ස් පේපර්ස් ලිමිටඩ්හි ශ්රී ලංකා සතිපතා පුවත්පත.</a>
+          </div>
      </div>
 </div>
 </div>
